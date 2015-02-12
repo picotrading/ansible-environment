@@ -1,0 +1,6 @@
+---
+
+- name: Configuring environment variables
+  template:
+    src: environment.j2
+    dest: "{{ environment_file }}"

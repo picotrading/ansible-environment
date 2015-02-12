@@ -1,0 +1,7 @@
+---
+
+# Default environment file
+environment_file: /etc/environment
+
+# Default set of environment variables
+environment_config: {}

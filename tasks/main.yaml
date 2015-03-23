@@ -4,3 +4,5 @@
   template:
     src: environment.j2
     dest: "{{ environment_file }}"
+  tags:
+    - environment_config
